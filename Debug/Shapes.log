@@ -1,0 +1,28 @@
+﻿Build started 17.05.2020 19:26:30.
+     1>Project "C:\Users\Danil\documents\visual studio 2013\Projects\Shapes\Shapes\Shapes.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\danil\documents\visual studio 2013\projects\shapes\shapes\circle.h(106): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\danil\documents\visual studio 2013\projects\shapes\shapes\circle.h(105) : while compiling class template member function 'float Circle<char>::A(void)'
+                 c:\users\danil\documents\visual studio 2013\projects\shapes\shapes\circle.h(22) : see reference to class template instantiation 'Circle<char>' being compiled
+     1>c:\users\danil\documents\visual studio 2013\projects\shapes\shapes\triangle.h(92): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+                 c:\users\danil\documents\visual studio 2013\projects\shapes\shapes\triangle.h(91) : while compiling class template member function 'float Triangle<char>::A(void)'
+                 c:\users\danil\documents\visual studio 2013\projects\shapes\shapes\triangle.h(22) : see reference to class template instantiation 'Triangle<char>' being compiled
+     1>c:\users\danil\documents\visual studio 2013\projects\shapes\shapes\square.h(89): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+                 c:\users\danil\documents\visual studio 2013\projects\shapes\shapes\square.h(88) : while compiling class template member function 'float Square<char>::A(void)'
+                 c:\users\danil\documents\visual studio 2013\projects\shapes\shapes\square.h(22) : see reference to class template instantiation 'Square<char>' being compiled
+     1>c:\users\danil\documents\visual studio 2013\projects\shapes\shapes\rectangle.h(101): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+                 c:\users\danil\documents\visual studio 2013\projects\shapes\shapes\rectangle.h(100) : while compiling class template member function 'float Rectangle<char>::A(void)'
+                 c:\users\danil\documents\visual studio 2013\projects\shapes\shapes\rectangle.h(24) : see reference to class template instantiation 'Rectangle<char>' being compiled
+     1>c:\users\danil\documents\visual studio 2013\projects\shapes\shapes\cube.h(115): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+                 c:\users\danil\documents\visual studio 2013\projects\shapes\shapes\cube.h(114) : while compiling class template member function 'float Cube<char>::A(void)'
+                 c:\users\danil\documents\visual studio 2013\projects\shapes\shapes\main.cpp(12) : see reference to class template instantiation 'Cube<char>' being compiled
+       Link:
+         D:\visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Danil\documents\visual studio 2013\Projects\Shapes\Debug\Shapes.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Danil\documents\visual studio 2013\Projects\Shapes\Debug\Shapes.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Danil\documents\visual studio 2013\Projects\Shapes\Debug\Shapes.lib" /MACHINE:X86 Debug\main.obj
+         Shapes.vcxproj -> C:\Users\Danil\documents\visual studio 2013\Projects\Shapes\Debug\Shapes.exe
+     1>Done Building Project "C:\Users\Danil\documents\visual studio 2013\Projects\Shapes\Shapes\Shapes.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.12
